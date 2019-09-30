@@ -11,6 +11,9 @@ public class ZadachaArr {
         for (int i=0; i< arr1.length; i++) {
             System.out.print(arr1[i]+" ");
                            }
+        int arrayLength = arr1.length;
+        System.out.print(arrayLength);
+        System.out.print(arr1[arrayLength/2+1]);
 
     }
 }
